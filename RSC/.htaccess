@@ -1,0 +1,5 @@
+AuthName "Restricted Area" 
+AuthType Basic 
+AuthUserFile /home/icmacinnes/ht_docs/.htpasswd 
+AuthGroupFile /home/icmacinnes/ht_docs/.htgroup 
+require group leads
